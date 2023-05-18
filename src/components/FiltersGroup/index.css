@@ -1,0 +1,100 @@
+.filters-group-container {
+  margin-top: 16px;
+  padding: 0px;
+  line-height: 2.2;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: blue;
+}
+
+.white {
+  color: #ddd;
+  border: ipx solid #ccd;
+}
+
+.in {
+  background-color: #dde;
+  padding: 9px;
+  width: 200px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  outline: none;
+}
+.input-container {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  background-color: #dde;
+  border-radius: 8px;
+  align-items: center;
+}
+.container {
+  cursor: pointer;
+  display: block;
+  outline: none;
+  border: none;
+  margin: 2px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  width: 22px;
+  height: 22px;
+  color: #99a;
+}
+.ili {
+  padding: 0px;
+}
+.rating {
+  width: 150px;
+}
+.but {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  outline: none;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.simple {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+.active {
+  border-bottom: 1px solid teal;
+  display: inline-block;
+  margin: 0px;
+  line-height: 0;
+}
+.active-rating {
+  border-left: 1px solid teal;
+  display: inline-block;
+  margin: 0px;
+  line-height: 0;
+}
